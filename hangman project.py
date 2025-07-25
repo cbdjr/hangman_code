@@ -44,9 +44,9 @@ guessed = []
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-#game loop
-FPS = 60
-clock = pygame.time.Clock()
+#game loop: not used at the moment
+#FPS = 60
+#clock = pygame.time.Clock()
 running = True
 
 
@@ -92,7 +92,7 @@ def ending():
     screen.fill(BLACK)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            run = False
+
             pygame.quit()
         if event.type == pygame.MOUSEBUTTONDOWN:
             g_x, g_y = pygame.mouse.get_pos()
@@ -122,11 +122,11 @@ def ending():
 # main menu
 def main_menu():
     screen.fill(WHITE)
-    run = True
+
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                run = False
+
                 pygame.quit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 g_x, g_y = pygame.mouse.get_pos()
@@ -179,19 +179,19 @@ def main_menu():
 
 def options_menu():
     screen.fill(WHITE)
-    run = True
+
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                run = False
+
                 pygame.quit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 g_x, g_y = pygame.mouse.get_pos()
                 print(g_x, g_y)
                 if 326 < g_x < 476 and 226 < g_y < 255:
-                    mainVERYHARD()
+                    mainveryhard()
                 elif 326 < g_x < 476 and 326 < g_y < 355:
-                    mainHARD()
+                    mainhard()
                 elif 326 < g_x < 476 and 426 < g_y < 455:
                     main()
 
@@ -223,9 +223,9 @@ def options_menu():
 
 
 
+# core game loops/difficulty
 
-
-def mainHARD():
+def mainhard():
     global hangman_status
 
     FPS = 60
@@ -269,7 +269,7 @@ def mainHARD():
             #ending()
 
 
-def mainVERYHARD():
+def mainveryhard():
     global hangman_status
 
     FPS = 60
@@ -355,6 +355,9 @@ def main():
             display_message("GAME OVER")
             pygame.quit()
             #ending()
+
+
+
 
 while True:
     for event in pygame.event.get():
