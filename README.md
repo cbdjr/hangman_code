@@ -14,7 +14,7 @@ A classic Hangman word-guessing game implemented in Python. Guess the secret wor
 ### Run the main game file
 #### Follow prompts:
 - Play or select difficulty
-  #### game screen shots
+  #### Game screen shots
   <img width="798" height="526" alt="Screenshot 2025-07-24 190420" src="https://github.com/user-attachments/assets/ff2ecd28-0f0e-4307-bc73-c12304a0ddf4" />
 
   <img width="795" height="521" alt="Screenshot 2025-07-24 190428" src="https://github.com/user-attachments/assets/251a73c7-96d1-48a3-aa7b-c0c82bbfcdb6" />
