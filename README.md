@@ -5,15 +5,28 @@ A classic Hangman word-guessing game implemented in Python. Guess the secret wor
 ## Features
 
 - Random word selection from a list
-- digital-art hangman stages for each wrong guess
-- difficulty selection
+- Digital-art hangman stages for each wrong guess
+- Difficulty selection
 - Win/lose detection
 - Easily extendable: change word list 
 
 ## 🎮 Gameplay/Usage
 ### Run the main game file
 #### Follow prompts:
-- play or select difficulty
+- Play or select difficulty
+  #### game screen shots
+  <img width="798" height="526" alt="Screenshot 2025-07-24 190420" src="https://github.com/user-attachments/assets/ff2ecd28-0f0e-4307-bc73-c12304a0ddf4" />
+
+  <img width="795" height="521" alt="Screenshot 2025-07-24 190428" src="https://github.com/user-attachments/assets/251a73c7-96d1-48a3-aa7b-c0c82bbfcdb6" />
+
+  <img width="793" height="520" alt="Screenshot 2025-07-24 190436" src="https://github.com/user-attachments/assets/dfb61a2f-a262-4b04-b009-32ac94fff898" />
+
+  <img width="795" height="521" alt="Screenshot 2025-07-24 190455" src="https://github.com/user-attachments/assets/46efa505-2624-4cdf-8824-413b6faf016a" />
+
+  <img width="796" height="515" alt="Screenshot 2025-07-24 190645" src="https://github.com/user-attachments/assets/7ffbd512-e064-4693-9ae2-547ff95ae8f1" />
+
+
+
   
 ## 🧩 Game Play
 
@@ -24,6 +37,6 @@ A classic Hangman word-guessing game implemented in Python. Guess the secret wor
 
 ## REQUIREMENTS
 - Ensure you have python 3.6+ installed
-- all image files
+- All image files
 
 
