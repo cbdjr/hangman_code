@@ -4,8 +4,8 @@ A classic Hangman word-guessing game implemented in Python. Guess the secret wor
 
 ## INSTALLATION
 - Navigate to your python IDE Terminal
-- Clone the repository using: git clone https://github.com/cbdjr/hangman_code.git
-- Change directory to the root folder of the cloned repository using: cd hangman_code
+- Clone the repository using: `git clone https://github.com/cbdjr/hangman_code.git`
+- Change directory to the root folder of the cloned repository using: `cd hangman_code`
 ### REQUIREMENTS
 #### TO RUN
 - Ensure you have python 3.6+ installed
