@@ -34,7 +34,7 @@ for i in range(7):
 # game var
 hangman_status = 0
 
-words = [" SAME", "TRANQUIL", "TENT", "USE", "HOT", "THREAD", "MANY", "DEAFENING", "BEAR", "TRIP", "MOUNTAIN", "TEACHING"]
+words = ["SAME", "TRANQUIL", "TENT", "USE", "HOT", "THREAD", "MANY", "DEAFENING", "BEAR", "TRIP", "MOUNTAIN", "TEACHING", "CROSS", "SEIZE", "COLORFUL", "ELBOW", "GLANCE","GUIDE", "CANCEL", "GLUE", "BALANCE", "SENTENCE", "LIFT", "SECRETION", "WEALTH", "AUNT", "NETWORK", "HILL", "IMPACT", "MENU"]
 
 word = random.choice(words)
 
